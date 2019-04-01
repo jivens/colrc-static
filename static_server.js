@@ -1,8 +1,9 @@
 var express = require('express');
 var app = express();
+var path = require('path');
 
-//setting middleware
-app.use(express.static(__dirname + 'public')); //Serves resources from public folder
+//app.use(express.static(__dirname)); // Current directory is root
+app.use(express.static(path.join(__dirname, 'public'))); //  "public" off of current is root
 
-
-var server = app.listen(3500);
+app.listen(3500);
+console.log('Listening on port 3500');
