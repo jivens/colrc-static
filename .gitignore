@@ -12,6 +12,9 @@
 # audio files
 /audio
 
+# text files
+/texts
+
 # public files
 /public
 
