@@ -13,7 +13,7 @@
 /audio
 
 # text files
-/texts
+#/texts
 
 # public files
 /public
